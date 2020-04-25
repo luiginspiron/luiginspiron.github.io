@@ -105,7 +105,6 @@
       box-sizing: inherit;
     }
     body {
-      /*background-color: #0C0C0C;*/
       background-color: #191919;
       font-family: 'Open Sans', sans-serif;
     }
@@ -279,107 +278,51 @@
     }
   
     /* Navegacion */
-    div.menu ul{
+    div.navegacion ul{
       list-style: none;
       margin: 0;
       padding: 0;
       float: right;
     }
-    div.menu .item{
+    div.navegacion .item{
       float: left;
     }
-    div.menu .item a{
+    div.navegacion .item a{
       background: black;
       color: #15C24C;
-      padding: 18px 15px;
+      padding: 13px 10px;
       display: block;
       font-family: 'Oswald', sans-serif;
       font-size: 20px;
       text-decoration: none;
       text-transform: uppercase;
-      /*min-width: 100%;*/
       transition: all .6s ease;
-
       width: 100%;
-      /*text-align: center;*/
-      clear: both;
-      /*margin-bottom: 20px;*/
     }
-    div.menu .desple{
+    div.navegacion .desple{
       display: none;
       position: absolute;
       min-width: 80px;
     }
-    div.menu .item a:hover{
+    div.navegacion .item a:hover{
       background: #6A6A6A;
     }
-    div.menu .item:hover .desple{
+    div.navegacion .item:hover .desple{
       display: block;
     }
     @media only screen and (min-width:768px){
-      div.menu ul{
+      div.navegacion ul{
         width: 67%;
         float: right;
-        /*text-align: right;*/
         display: block;
       }
-      div.menu .item a{
-        /*padding: 10px 10px;*/
+      div.navegacion .item a{
         display: inline-block;
         width: auto;
         text-align: center;
-        /*margin: 0 10px 0 0;*/
        }
     }
     
-
-
-
-    /* Menu viejo */
-    /*nav.menu{
-      display: none;
-      text-align: right;
-    }
-   
-    nav.menu a{
-      font-family: 'Oswald', sans-serif;
-      color: #15C24C;
-      font-size: 20px;
-      text-transform: uppercase;
-      text-decoration: none;
-      transition: all .6s ease;
-      min-width: 100%;
-      display: block;
-      padding: 12px;
-      background: black;
-      text-align: left;
-    }
-    nav.menu a:hover{
-      background: #6A6A6A;
-    }
-    nav.menu ul{
-      list-style: none;
-      display: flex;
-      justify-content: right;
-    }
-    nav.menu ul ul{
-      display: none;
-    }
-    nav.menu ul li:hover ul{
-      display: block;
-      position: absolute;
-    }
-    @media only screen and (min-width:768px){
-      nav.menu{
-      width: 70%;
-      float: right;
-      text-align: right;
-      display: flex;
-      }
-    }*/
-  
-
-
 
     /* Menu movil */
     div.menu-movil{
@@ -388,7 +331,7 @@
       float: right;
       text-align: right;
       margin-top: 12px;
-      /*padding-top: 18px;*/
+      padding-top: 18px;
     }
     div.menu-movil:hover{
       cursor: pointer;

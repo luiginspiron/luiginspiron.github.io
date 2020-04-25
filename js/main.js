@@ -40,15 +40,15 @@ $(function() {
 
     //Menu responsive
     $('.menu-movil').on('click', function(){
-        $('.menu').slideToggle();
+        $('.navegacion').slideToggle();
     });
 
     $(window).resize(function() {
         var windowWidth = $(".barra").width();
         if (windowWidth > 755) {
-        $(".menu").css({ display: "block" });
+        $(".navegacion").css({ display: "block" });
         } else {
-        $(".menu").css({ display: "none" });
+        $(".navegacion").css({ display: "none" });
         }
     });
 });
