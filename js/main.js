@@ -1,8 +1,6 @@
 (function(){
     "use strict";
 
-    var regalo = document.getElementById('regalo');
-
     document.addEventListener('DOMContentLoaded', function(){
 
         if(document.getElementById('mapa')){
@@ -35,22 +33,22 @@ $(function() {
             $('.barra').addClass('fixed');
             $('body').css({'margin-top': barraAltura+'px'});
         } else{
-            $('.barra').removeClass('fixed');
+           $('.barra').removeClass('fixed');
             $('body').css({'margin-top': '0px'});
         }
     });
 
     //Menu responsive
     $('.menu-movil').on('click', function(){
-        $('.navegacion-principal').slideToggle();
+        $('.menu').slideToggle();
     });
 
     $(window).resize(function() {
         var windowWidth = $(".barra").width();
         if (windowWidth > 755) {
-          $(".navegacion-principal").css({ display: "block" });
+        $(".menu").css({ display: "block" });
         } else {
-          $(".navegacion-principal").css({ display: "none" });
+        $(".menu").css({ display: "none" });
         }
     });
 });
