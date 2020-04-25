@@ -290,7 +290,8 @@
     div.navegacion .item a{
       background: black;
       color: #15C24C;
-      padding: 13px 15px;
+      /*padding: 13px 15px;*/
+      padding: 10px 10px;
       display: block;
       font-family: 'Oswald', sans-serif;
       font-size: 20px;
