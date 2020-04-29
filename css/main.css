@@ -234,7 +234,7 @@
       font-size: 10vw;
       text-transform: uppercase;
       padding-top: 40px;
-      text-shadow: 6px 6px 2px #6A6A6A;
+      text-shadow: 6px 6px 2px black;
     }
     @media only screen and (min-width:768px){
       h1.nombre-club{
@@ -290,7 +290,6 @@
     div.navegacion .item a{
       background: black;
       color: #15C24C;
-      /*padding: 13px 15px;*/
       padding: 10px 10px;
       display: block;
       font-family: 'Oswald', sans-serif;
